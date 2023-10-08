@@ -1,0 +1,97 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+/* Set the background color of the html element to black */
+html {
+  background-color: black;
+}
+
+/* Set the background image of the body element to a url of your choice */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Create a container element that has a max width of 1042px and is centered horizontally */
+.container {
+  max-width: 1042px;
+  margin: 0 auto;
+}
+
+/* Create a game container element that has a white background and some padding */
+.game-container {
+  background-color: white;
+  padding: 20px;
+  background-image: url(../img/00.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  box-shadow: inset 0px 0px 15px 10px #000;
+}
+
+/* Create a text container element that takes up 80% of the viewport height and has a scrollable overflow */
+.text-container {
+  height: 80vh;
+  overflow-y: auto;
+}
+
+/* Create a user controls container element that has some margin and padding */
+.user-controls-container {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+/* Create an input field element that has some width, height, border, and margin */
+.input-field {
+  width: 70%;
+  height: 35px;
+  border: 1px solid rgb(125, 125, 125, 0.5);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  box-shadow: inset 0 0 10px 1px rgba(24, 24, 24, 0.1);
+  backdrop-filter: blur( 2px );
+  border-radius: 10px;
+  padding: 5px 5px;
+  color: #fff;
+
+}
+
+/* Create a submit button element that has some width, height, border, color, and margin */
+.submit-button {
+  width: 5%;
+  height: 45px;
+  border: 1px solid rgba(125, 125, 125, 0.5);
+  background-color: rgba(125, 125, 125, 0.5);
+  margin-bottom: 10px;
+  box-shadow: inset 0 0 10px 1px rgba(24, 24, 24, 0.1);
+  backdrop-filter: blur( 2px );
+  border-radius: 10px;
+  padding: 0px 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* .glass {
+  box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur( 2px );
+  border-radius: 10px;
+  padding: 8px 8px;
+  color: #000;
+} */
